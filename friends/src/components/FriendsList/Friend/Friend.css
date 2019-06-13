@@ -1,0 +1,8 @@
+.Friend {
+  height: 120px;
+  text-align: center;
+  padding: 30px;
+  margin: 30px;
+  box-shadow: 0 5px 10px #ccc;
+  width: 300px;
+}
