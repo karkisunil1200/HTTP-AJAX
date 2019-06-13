@@ -1,5 +1,5 @@
 import React from 'react';
-import Friend from '../Friend/Freind';
+import Friend from '../Friend/Friend';
 import './Friends.css';
 
 const Friends = props => {
@@ -9,7 +9,7 @@ const Friends = props => {
       <h1 className='title'>Friends List</h1>
       <div className='Friends'>
         {props.friendsList.map(friends => {
-          return <Friend friend={friends} />;
+          return <Friend friend={friends} key={friends.id} />;
         })}
       </div>
     </div>
