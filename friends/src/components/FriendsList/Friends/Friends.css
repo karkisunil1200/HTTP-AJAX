@@ -1,0 +1,17 @@
+.Friends {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-top: 50px;
+  justify-content: center;
+}
+
+.title {
+  text-align: center;
+}
+
+.friend-container {
+  margin-top: 50px;
+  box-shadow: 0 5px 10px #ccc;
+  padding: 40px;
+}
